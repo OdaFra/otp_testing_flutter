@@ -190,24 +190,6 @@ class _PinCodeVerificationScreenState extends State<PinCodeVerificationScreen> {
                     ],
                   ),
                 ),
-                // InkWell(
-                //   onTap: (() =>
-                //       print('volver a enviar la solicitud de codigo otp')),
-                //   child: Container(
-                //     margin: const EdgeInsets.only(top: 20, left: 5),
-                //     child: Row(
-                //       children: [
-                //         SvgPicture.asset(
-                //           'assets/svgs/reload.svg',
-                //           width: 20,
-                //         ),
-                //         const SizedBox(width: 10),
-                //         Text('Reenviar mensaje',
-                //             style: AppTheme.styles.infoTextRegular14),
-                //       ],
-                //     ),
-                //   ),
-                // ),
                 Container(
                     margin: const EdgeInsets.only(top: 20, left: 5),
                     child: const TimerWatch()),
@@ -224,7 +206,6 @@ class _PinCodeVerificationScreenState extends State<PinCodeVerificationScreen> {
                   ),
                 ),
                 const SizedBox(height: 20),
-
                 const SizedBox(height: 14),
                 Container(
                   margin: const EdgeInsets.symmetric(
@@ -264,9 +245,7 @@ class _PinCodeVerificationScreenState extends State<PinCodeVerificationScreen> {
                     ),
                   ),
                 ),
-                const SizedBox(
-                  height: 16,
-                ),
+                const SizedBox(height: 16),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
