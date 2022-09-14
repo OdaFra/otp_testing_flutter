@@ -13,15 +13,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter OTP',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         backgroundColor: Colors.white,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: const PinCodeVerificationScreen(
-          phoneNumber:
-              "+595981888825"), // a random number, please don't call xD
+      home:
+          const PinCodeVerificationScreen(), // a random number, please don't call xD
     );
   }
 }
